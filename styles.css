@@ -1,5 +1,149 @@
-body {
-    background-image: url('./images/Anitas\ Kitchen.jpg');
+
+.top {
+    position: relative;
+}
+.top>.logo {
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    align-items: center;
+}
+.top .welcome {
+    position: absolute;
+    left: 35%;
+    top: 60%;
+    color: white;
+    padding: 30px;
+}
+.top img{
+    max-width: 100%;
+}
+.top .welcome h1{
+    font-size: 35px;
+    font-weight: lighter;
+}
+span{
+    font-weight: bold;
+}
+.bckground {
+    z-index: -1;
+}
+nav {
+    background-color: thistle;
+    padding: 20px;
+}
+nav ul {
+    max-width: 1400px;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+nav li {
+    width: 10%;
+    display: inline-block;
+    font-size: 24px;
+}
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+.menunav>.happyhour {
+    color: darkslategrey;
+    background-color: antiquewhite;
+    padding: 30px;
+}
+.menunav .partytime {
+    background-color: #F15A29;
+    padding: 10px;
+}
+.menunav .breakfast {
+    background-image: url(./pictures/breakfast.jpg);
+    width: 25%;
+    height: 150px;
+}
+.menunav .lunch {
+    background-image: url(./pictures/lunch.jpg);
+    width: 25%;
+    height: 150px;
+}
+.menunav .dinner {
+    background-image: url(./pictures/dinner.jpg);
+    width: 25%;
+    height: 150px;
+}
+main {
+    max-width: 100%;
     width: 1400px;
-    height: 3661px;
+    margin: 0px auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+article h2 {
+    color: black;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.food {
+    display: inline;
+    width: 30%;
+    white-space: normal;
+}
+.food .foodpics{
+    max-width: 40%;
+}
+article p {
+    line-height: 2em;
+    color: black;
+}
+.snaps li{
+    width: 30%;
+    display: inline-block;
+}
+.snaps li img {
+    max-width: 100%;
+}
+.fastfood {
+    display: inline-flexbox;
+}
+.fastfood img {
+    white-space: wrap;
+    columns: 2;
+}
+body{ 
+    background-color: #F15A29;
+    z-index: -1;
+}
+.customers{
+    border: dimgray;
+    text-align: center;
+    columns: 40%;
+    background-color: #f4f4f4;
+    display:inline-flexbox;
+}
+.customers h2{
+    color:brown;
+}
+.bckground {
+    position: relative;
+}
+.bckground .formintro {
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 38%;
+    font-size: 20px;
+}
+.bckground form input {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    padding: 25px 20 px;
+    font-size: 24px;
+    border: 2px solid teal;
+}
+footer{
+    background-color: #F15A29;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
